@@ -13,7 +13,7 @@ Store item sale price calculator.
         "billDate": "2022-05-30T03:27:05.926Z",
         "items": [
           {
-            "itemId": 4,
+            "itemId": "4",
             "quantity": 6,
             "unitPrice": 10
           }
@@ -25,22 +25,22 @@ Store item sale price calculator.
         "billDate": "2022-05-30T03:27:05.926Z",
         "items": [
           {
-            "itemId": 1,
+            "itemId": "1",
             "quantity": 2,
             "unitPrice": 10
           },
         {
-            "itemId": 2,
+            "itemId": "2",
             "quantity": 2,
             "unitPrice": 20
           },
         {
-            "itemId": 4,
+            "itemId": "4",
             "quantity": 3,
             "unitPrice": 30
           },
         {
-            "itemId": 6,
+            "itemId": "6",
             "quantity": 1,
             "unitPrice": 50
           }
@@ -51,3 +51,4 @@ Store item sale price calculator.
 
 * All the master values are hardcoded in appsettings.json file.
 * Added Swagger to execute the APIs. 
+* One unit test for happy path is added.
